@@ -1,0 +1,94 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: chase 1872312711@qq.com, sun, LIC=VGXG8-36TCJ-SBCEJ-UCLT8-U8XH4-ASFS9
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.35.0.2
+Toolchain Path:  C:\Users\18723\Desktop\study material\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.33.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\stm32\Project\F1_final_construction\MDK-ARM\F1_final_construction.uvprojx
+Project File Date:  12/06/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Users\18723\Desktop\study material\keil5\ARM\ARMCC\Bin'
+Build target 'F1_final_construction'
+compiling control_fun.c...
+..\User_control\control_fun.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User_control\control_fun.c(153): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(motor1_pin1_GPIO_Port,motor1_pin1_Pin,motor_1.pin_1);
+..\User_control\control_fun.c(154): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(motor1_pin2_GPIO_Port,motor1_pin2_Pin,motor_1.pin_2);
+..\User_control\control_fun.c(155): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(motor2_pin1_GPIO_Port,motor2_pin1_Pin,motor_2.pin_1);
+..\User_control\control_fun.c(156): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(motor2_pin2_GPIO_Port,motor2_pin2_Pin,motor_2.pin_2);
+..\User_control\control_fun.c(157): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(motor3_pin1_GPIO_Port,motor3_pin1_Pin,motor_3.pin_1);
+..\User_control\control_fun.c(158): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(motor3_pin2_GPIO_Port,motor3_pin2_Pin,motor_3.pin_2);
+..\User_control\control_fun.c(159): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(motor4_pin1_GPIO_Port,motor4_pin1_Pin,motor_4.pin_1);
+..\User_control\control_fun.c(160): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(motor4_pin2_GPIO_Port,motor4_pin2_Pin,motor_4.pin_2);
+..\User_control\control_fun.c(177): warning:  #177-D: variable "par_directioin"  was declared but never referenced
+  	char par_directioin[2];//方向转向控制，占 1 个字节 
+..\User_control\control_fun.c: 10 warnings, 0 errors
+compiling main.c...
+../User_control/control_fun.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif
+../User_control/tracking.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+../User_control/fire.h(12): warning:  #1295-D: Deprecated declaration Steering_Enging - give arg types
+  void Steering_Enging();
+../User_control/fire.h(13): warning:  #1295-D: Deprecated declaration Steering_Enging_Close - give arg types
+  void Steering_Enging_Close();
+../User_control/fire.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/main.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=7760 RO-data=312 RW-data=48 ZI-data=1920  
+FromELF: creating hex file...
+"F1_final_construction\F1_final_construction.axf" - 0 Error(s), 15 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_F1_final_construction
+  C:\Users\18723\Desktop\study material\keil5\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\18723\Desktop\study material\keil5\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
